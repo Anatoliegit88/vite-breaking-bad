@@ -1,10 +1,18 @@
-@use "./partials/-variables.scss";
+@use "./partials/variables";
+@import "/node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fontsource/montserrat/index.css";
+@import "node_modules/@fontsource/montserrat/700.css";
 
 body {
   background-color: #2e3a46;
-  height: 100vh;
+  color: white;
 }
 
 .img {
-  width: 40px;
+  // width: 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  // width: calc(100% / 5 - 20px);
 }
